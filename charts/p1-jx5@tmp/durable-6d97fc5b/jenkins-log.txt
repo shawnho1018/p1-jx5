@@ -1,0 +1,5 @@
++ make tag
+sed -i -e "s/version:.*/version: 0.0.1/" Chart.yaml
+sed -i -e "s|repository: .*|repository: ingress-nginx-ingress-controller.jx5-7dad5882-b3fc-11e8-9839-069093480192.93a9beeb-d761-4551-bdba-e1f8b99fb995.vke-user.com\/shawnho1018\/p1-jx5|" values.yaml
+sed -i -e "s/tag: .*/tag: 0.0.1/" values.yaml
+git add --all

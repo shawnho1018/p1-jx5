@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: ingress-nginx-ingress-controller.jx5-7dad5882-b3fc-11e8-9839-069093480192.93a9beeb-d761-4551-bdba-e1f8b99fb995.vke-user.com/shawnho1018/p1-jx5
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: p1-jx5
